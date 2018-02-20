@@ -93,7 +93,8 @@ class Dog
   def update
     self
     sql = <<-SQL
-      UPDATE 
+      UPDATE dogs
+      WHERE id = ?, name = ?
     SQL
   end
 end
