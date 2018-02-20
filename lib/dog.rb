@@ -92,5 +92,8 @@ class Dog
   
   def update
     self
+    sql = <<-SQL
+      UPDATE 
+    SQL
   end
 end
