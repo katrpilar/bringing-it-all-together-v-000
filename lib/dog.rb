@@ -91,6 +91,6 @@ class Dog
   end
   
   def update
-    
+    self
   end
 end
